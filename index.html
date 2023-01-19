@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <title>Sistema de controle de carros </title>
+</head>
+<body>
+    <header>
+        <h1>Estacionamento <strong>Carioca !</strong></h1>
+    </header>
+
+    <main>
+        <div class="title">
+            <h2>Lista de carros</h2>
+            <span>Lista de carros no Estacionamento.</span>
+        </div>
+
+        <div class="card">
+
+            <div class="grupo-input">
+                <label>Nome:</label>
+                <input type="text" id="nome">
+            </div>
+            <div class="grupo-input">
+                <label>Placa do carro:</label>
+                <input type="text" id="placa">
+            </div>
+            <div class="grupo-input">
+                <label>Hora de chegada:</label>
+                <input type="text" id="hora">
+            </div>
+
+           <button class="editar" onclick="produto.salvar()" id="btn1">Salvar</button>
+           <button class="deletar" onclick="produto.cancelar()" >Cancelar</button> 
+        </div>
+
+        <div class="container">
+            <table border="1">
+                <thead>
+                    <th>ID</th>
+                    <th>Nome</th>
+                    <th>Placa</th>
+                    <th>Hora</th>
+                    <th>Ações</th>
+                </thead>
+                <tbody>
+                    <tbody id="tbody">
+                        
+                    </tbody>
+                </tbody>
+            </table>
+        </div>
+    </main>
+    
+</body>
+</html>

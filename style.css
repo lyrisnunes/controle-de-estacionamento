@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    outline: none;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background-color: #1d2630;
+    color: #ccc;
+}
+
+header{
+    background-color: #000000;
+    color: white;
+    text-align: center;
+}
+
+h1{
+    font-size: 3rem;
+}
+
+header strong{
+    color:  #E50911;
+}
+
+main{
+    padding: 30px;
+}
+
+.card{
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-top: 15px;
+    border-radius: 5px;
+}
+
+.grupo-input{
+    display: grid;
+    margin-bottom: 10px;
+}
+
+input{
+    padding: 5px;
+    border-radius: 3px;
+}
+
+button{
+    padding: 5px;
+    transition: all ease .3s;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.editar{
+    background-color: #E50911;
+}
+
+.deletar{
+    background-color: #F0AA3A;
+}
+
+.container{
+    margin-top: 15px;
+}
+
+table{
+    align-items: center;
+    border-collapse: collapse;
+    border: 1px solid #ccc;
+    width: 100%;
+    text-align: center;
+}
+
+thead{
+    background-color: #000000;
+    padding: 15px;
+}
+
+thead th{
+    padding: 6px;
+}
+
+table{
+    border: 1px solid black;
+}
+
+table td{
+    padding: 7px;
+}
+
+table td i{
+    font-size: 22px;
+    margin-right: 10px;
+}
+
+#tbody{
+    background-color: #ccc;
+    color: #000000;
+}
+
+@media(max-width:800px){
+    h1{
+        font-size: 2rem;
+    }
+}
+
+@media(max-width:450px){
+    h1{
+        font-size: 1.5rem;
+    }
+}
